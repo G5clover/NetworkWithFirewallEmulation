@@ -11,13 +11,23 @@ Use python3 to run gui.
 Use python2 to run controller and topology to avoid compatibility issues.
 
 ## Running of software from /Network_project/interface/venv: (use: ```source venv/Scripts/activate``` to activate virtual environment)
-1. once inside the activated venv use 'pip3 install customtkinter'
-2. python3 test.py (GUI/Messanger)
+1. once inside the activated venv use ```pip3 install customtkinter```
+   
+3. To run the GUI.
+   ```bash
+   python3 test.py 
+   ```
 
 
 ## Running of software from ```/Network_project/new/newvenv```: (use: ```source newvenv/bin/activate``` to activate virtual environment)
-1. python2 ./pox/pox.py log.level --DEBUG forwarding.l2_learning firewall2 (controller)
-2. python2 mytopo.py (topology)
-
+1. To run the controller:
+   ```bash
+   python2 ./pox/pox.py log.level --DEBUG forwarding.l2_learning firewall2
+   ```
+   
+3. To run the topology:
+   ```bash
+   python2 mytopo.py (topology)
+   ```
 
 
